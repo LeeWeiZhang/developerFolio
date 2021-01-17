@@ -126,24 +126,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
-      logo: require('./assets/images/harvardLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
+      schoolName: 'SEGi University',
+      logo: require('./assets/images/SEGI-logo.png'),
+      subHeader: 'Second Upper Class in Bachelor of Information Technology (Hons) (Dual Degree) and specialized in Software Engineer.',
+      duration: 'May 2013 - May 2015',
     },
     {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/stanfordLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
+      schoolName: 'Mahsa Prima International College (MPIC)',
+      logo: require('./assets/images/mpic-logo.jpg'),
+      subHeader: 'Second Upper Class in Diploma in Information Technology',
+      duration: 'May 2010 - December 2012',
     },
   ],
 };
@@ -168,10 +160,6 @@ const techStack = {
     {
       Stack: 'Frontend Web',
       progressPercentage: '55%',
-    },
-    {
-      Stack: 'Android',
-      progressPercentage: '10%',
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
